@@ -69,7 +69,8 @@ PS: If you need a clean, single-column, parser-friendly .docx template designed 
 ## Part 2: LinkedIn First Comment (Simple Ethical CTA)
 
 ```markdown
-Free Fresher Job Application Kit: [LINK: https://github.com/<owner>/<repo>/releases/tag/v0.1]
+Free Fresher Job Application Kit:
+https://github.com/rohitkalyan505-design/fresher-job-kit/releases/download/v0.1/Fresher_Job_Application_Kit_v0.1.zip
 
 Inside the free .zip:
 • Single-Column ATS-Conscious Resume Template (.docx + reference .pdf)
@@ -148,7 +149,8 @@ Want a clean single-column, parser-friendly .docx template designed to reduce pa
 
 **YouTube Shorts Pinned Comment Copy:**
 ```markdown
-Free Fresher Job Application Kit: [LINK: https://github.com/<owner>/<repo>/releases/tag/v0.1]
+Free Fresher Job Application Kit:
+https://github.com/rohitkalyan505-design/fresher-job-kit/releases/download/v0.1/Fresher_Job_Application_Kit_v0.1.zip
 
 Inside the free .zip:
 • Single-Column ATS-Conscious Resume Template (.docx + reference .pdf)

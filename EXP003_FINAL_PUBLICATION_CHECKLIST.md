@@ -34,8 +34,8 @@
 - **Tag:** `v0.1`
 - **Asset Attachment:** `Fresher_Job_Application_Kit_v0.1.zip`
 - **Release Body Copy:** Pre-staged in [`product/dist/GITHUB_RELEASE_NOTES.md`](file:///C:/Users/vishn/.gemini/antigravity-ide/scratch/fresher-job-kit/product/dist/GITHUB_RELEASE_NOTES.md).
-- **Public URL Placeholder:** `https://github.com/<owner>/<repo>/releases/tag/v0.1`
-- **Direct Download Asset URL:** `https://github.com/<owner>/<repo>/releases/download/v0.1/Fresher_Job_Application_Kit_v0.1.zip`
+- **Public URL Placeholder:** `https://github.com/rohitkalyan505-design/fresher-job-kit/releases/tag/v0.1`
+- **Direct Download Asset URL:** `https://github.com/rohitkalyan505-design/fresher-job-kit/releases/download/v0.1/Fresher_Job_Application_Kit_v0.1.zip`
 
 ### Component 2: Public Distribution ZIP Archive
 - **Path:** `product/dist/Fresher_Job_Application_Kit_v0.1.zip`
@@ -91,7 +91,7 @@ To execute publication when you are ready, follow these sequential steps:
    - Attach [`product/dist/Fresher_Job_Application_Kit_v0.1.zip`](file:///C:/Users/vishn/.gemini/antigravity-ide/scratch/fresher-job-kit/product/dist/Fresher_Job_Application_Kit_v0.1.zip).
    - Click "Publish release".
 2. **Step 2: Update Download URL in Landing Page & Content Links**
-   - Copy the published direct asset URL: `https://github.com/<owner>/<repo>/releases/download/v0.1/Fresher_Job_Application_Kit_v0.1.zip`.
+   - Copy the published direct asset URL: `https://github.com/rohitkalyan505-design/fresher-job-kit/releases/download/v0.1/Fresher_Job_Application_Kit_v0.1.zip`.
    - Replace `[LINK]` in `content/post-1/CONTENT_POST_1.md` and set `GITHUB_RELEASE_DOWNLOAD_URL` in `product/landing/index.html`.
 3. **Step 3: Publish Content Post #1**
    - Upload [`linkedin-carousel-5-things-to-remove.pdf`](file:///C:/Users/vishn/.gemini/antigravity-ide/scratch/fresher-job-kit/content/post-1/linkedin-carousel-5-things-to-remove.pdf) to LinkedIn as a document post.

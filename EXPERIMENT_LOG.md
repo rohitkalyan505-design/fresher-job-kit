@@ -13,7 +13,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | `EXP-001` | Community Pain Discovery & ATS Failure Mining | Research Unit | **COMPLETED** | Verified structural failures & Naukri confusion. |
 | `EXP-002` | Free MVP Scoping & Architecture Specification | Architecture / Product | **UNDER REVIEW** | Awaiting Founder Review. |
-| `EXP-003` | Zero-Click Educational Content on LinkedIn & Reddit | Creative / Content | **PLANNED** | Pending Founder sign-off. |
+| `EXP-003` | Zero-Click Educational Content on LinkedIn & Reddit | Creative / Content | **LIVE — VALIDATION STARTED** | Staged & launched across channels; validation started. |
 | `EXP-004` | Free Kit Distribution & Usability Friction Audit | QA & Operations | **PLANNED** | Blocked on EXP-002 & EXP-003. |
 | `EXP-005` | Willingness-to-Pay & Feature Cluster Validation | Product / Analytics | **PLANNED** | Blocked on EXP-004 adoption. |
 
@@ -43,12 +43,17 @@
 
 ---
 
-### Experiment EXP-003: Zero-Click Educational Content on LinkedIn & Reddit (PLANNED)
+### Experiment EXP-003: Zero-Click Educational Content on LinkedIn & Reddit (LIVE — VALIDATION STARTED)
+- **Status:** **LIVE — VALIDATION STARTED** (Authorized by Founder Rohit on October 2, 2026)
 - **Hypothesis:** Publishing zero-click, highly educational breakdowns dissecting resume errors and Naukri algorithm tips will generate higher save/share engagement than generic motivational posts, driving high-intent fresher traffic to the free kit.
-- **Action:** Draft and publish 4 core educational posts across 14 days; provide direct, zero-friction link to the free kit in comments/profile bio.
-- **Result:** *(To be recorded post-launch)*
-- **Learning:** *(To be recorded post-launch)*
-- **Next Action:** *(To be recorded post-launch)*
+- **Action:** Staged and launched Content Post #1 (`linkedin-carousel-5-things-to-remove.pdf` + standalone educational copy) on LinkedIn with direct link in first comment to GitHub Release asset (`Fresher_Job_Application_Kit_v0.1.zip`).
+- **Target Distribution Channels:** LinkedIn (Document Carousel Post #1), GitHub Releases (Direct Asset Distribution), Static Landing Page.
+- **GitHub Release URL:** `https://github.com/rohitkalyan505-design/fresher-job-kit/releases/tag/v0.1`
+- **Direct Download Asset URL:** `https://github.com/rohitkalyan505-design/fresher-job-kit/releases/download/v0.1/Fresher_Job_Application_Kit_v0.1.zip`
+- **Publication Timestamp:** `2026-10-02T21:20:00+05:30`
+- **Initial Metrics (Baseline):** 0 Impressions, 0 Saves, 0 Comments, 0 Clicks, 0 Downloads (strictly unmanipulated baseline).
+- **Learning:** (Tracking Day 1 to Day 7 validation signals).
+- **Next Action:** Track real audience response, monitor unprompted feature/review requests, log friction points, and maintain strict ₹0 cost boundary.
 
 ---
 
@@ -76,7 +81,7 @@
 
 | Post ID | Platform | Topic / Headline | Publish Date | Impressions | Saves / Bookmarks | Comments | Clicks to Kit | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `CNT-001` | LinkedIn | *5 Things to Remove from Your Fresher Resume* | TBD | — | — | — | — | — |
+| `CNT-001` | LinkedIn | *5 Things to Remove from Your Fresher Resume* | 2026-10-02 | 0 | 0 | 0 | 0 | Live — Validation started |
 | `CNT-002` | LinkedIn | *Why Your Canva Resume Fails ATS Parsing* | TBD | — | — | — | — | — |
 | `CNT-003` | Reddit | *Naukri Profile Ranking & Freshness Guide* | TBD | — | — | — | — | — |
 | `CNT-004` | LinkedIn | *How to Write Project Bullets with 0 Experience* | TBD | — | — | — | — | — |

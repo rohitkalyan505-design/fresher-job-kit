@@ -91,7 +91,7 @@ for col_idx, h in enumerate(content_headers, 1):
 
 # Pre-populate Post 1 planned rows
 planned_posts = [
-    ("POST-001-LI", "LinkedIn", "TBD", "5 Things Indian Freshers Should Remove from Their Resumes (Carousel)", 0, 0, 0, 0, 0, 0, 0, "=IF(E4>0, F4/E4, 0)", "=IF(J4>0, K4/J4, 0)"),
+    ("POST-001-LI", "LinkedIn", "2026-10-02", "5 Things Indian Freshers Should Remove from Their Resumes (Carousel)", 0, 0, 0, 0, 0, 0, 0, "=IF(E4>0, F4/E4, 0)", "=IF(J4>0, K4/J4, 0)"),
     ("POST-001-IG", "Instagram Reel", "TBD", "Stop Using 1990s Biodatas (50s Video)", 0, 0, 0, 0, 0, 0, 0, "=IF(E5>0, F5/E5, 0)", "=IF(J5>0, K5/J5, 0)"),
     ("POST-001-YT", "YouTube Shorts", "TBD", "Why Your Canva Resume Fails ATS Parsing (55s Demo)", 0, 0, 0, 0, 0, 0, 0, "=IF(E6>0, F6/E6, 0)", "=IF(J6>0, K6/J6, 0)"),
     ("POST-001-RD", "Reddit (r/devIndia)", "TBD", "Guide: The 5 Biodata Relics Wasting Fresher Resume Space", 0, 0, 0, 0, 0, 0, 0, "=IF(E7>0, F7/E7, 0)", "=IF(J7>0, K7/J7, 0)")
