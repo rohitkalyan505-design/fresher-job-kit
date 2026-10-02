@@ -8,7 +8,7 @@
 
 ## About This Kit
 
-Finding off-campus internships and entry-level tech roles in India can feel overwhelming. Many freshers apply to hundreds of jobs with generic, multi-column templates and outdated college placement biodatas, only to receive zero callbacks.
+Finding off-campus internships and entry-level tech roles in India can feel overwhelming. Freshers may apply to many opportunities while using generic resume templates and outdated college-placement formats.
 
 The **Fresher Job Application Kit (v0.1)** is an evidence-driven, zero-cost starter kit designed to help you de-clutter your application materials, understand parser-friendly single-column layout principles, tailor your projects to job descriptions, and organize your applications.
 
@@ -32,7 +32,7 @@ The **Fresher Job Application Kit (v0.1)** is an evidence-driven, zero-cost star
 
 ## Important Disclaimers & Limitations
 
-1. **No Employment Guarantees:** This kit is designed to provide structural clarity, readability, and alignment with modern industry standards. It does not and cannot guarantee job offers or interview callbacks. Hiring outcomes depend on broader market conditions, applicant volumes, candidate preparation, and interview performance.
+1. **No Employment Guarantees:** This kit is designed to provide structural clarity, readability, and use a clearer, structured resume format and application workflow. It does not and cannot guarantee job offers or interview callbacks. Hiring outcomes depend on broader market conditions, applicant volumes, candidate preparation, and interview performance.
 2. **ATS-Conscious, Not "ATS-Guaranteed":** There is no universal "ATS algorithm" or standard percentage score. Different employers utilize different platforms (Workday, Greenhouse, Taleo, Darwinbox). Our single-column layout is designed to reduce common text-order and optical parsing risks.
 3. **Verify Platform-Specific Information:** Portal features (such as Naukri's dashboard or character caps) evolve over time. Candidates should always verify current interface guidelines on respective platforms.
 4. **Fictional Demonstration Examples:** All project bullets and sample transformations in this kit are synthetic demonstration examples. **Never copy projects or credentials you did not build yourself.**
