@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fresher Job Application Kit (Free MVP v0.1) | Off-Campus Placement Guide</title>
+<meta name="description" content="A 100% free, ATS-conscious toolkit for Indian freshers and college students applying for off-campus internships and entry-level tech roles.">
+<style>
+  :root {
+    --bg-dark: #0f172a;
+    --bg-card: #1e293b;
+    --border: #334155;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --accent-blue: #3b82f6;
+    --accent-blue-hover: #2563eb;
+    --accent-green: #22c55e;
+    --accent-red: #ef4444;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--text-primary);
+    line-height: 1.6;
+    padding: 0;
+  }
+  header {
+    background-color: rgba(15, 23, 42, 0.95);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    backdrop-filter: blur(8px);
+  }
+  .nav-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .logo span {
+    color: var(--accent-blue);
+  }
+  .badge-free {
+    background-color: rgba(34, 197, 94, 0.15);
+    color: var(--accent-green);
+    border: 1px solid rgba(34, 197, 94, 0.3);
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 24px;
+  }
+  .hero {
+    text-align: center;
+    padding: 60px 0 40px 0;
+  }
+  .hero-tag {
+    display: inline-block;
+    background-color: #1e293b;
+    border: 1px solid var(--accent-blue);
+    color: #60a5fa;
+    padding: 6px 16px;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  h1 {
+    font-size: 2.75rem;
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  h1 span {
+    color: #60a5fa;
+  }
+  .hero-sub {
+    font-size: 1.2rem;
+    color: var(--text-secondary);
+    max-width: 780px;
+    margin: 0 auto 32px auto;
+  }
+  .btn-download {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--accent-blue);
+    color: #ffffff;
+    font-size: 1.15rem;
+    font-weight: 700;
+    padding: 16px 36px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    box-shadow: 0 4px 20px rgba(59, 130, 246, 0.35);
+  }
+  .btn-download:hover {
+    background-color: var(--accent-blue-hover);
+    transform: translateY(-2px);
+  }
+  .trust-bar {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+  }
+  .trust-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .trust-item::before {
+    content: "✓";
+    color: var(--accent-green);
+    font-weight: bold;
+  }
+  .section-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 48px 0 16px 0;
+    text-align: center;
+  }
+  .section-sub {
+    text-align: center;
+    color: var(--text-secondary);
+    margin-bottom: 32px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 24px;
+  }
+  .grid-3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background-color: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px;
+  }
+  .card-icon {
+    font-size: 1.5rem;
+    margin-bottom: 12px;
+    display: inline-block;
+  }
+  .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+    color: #ffffff;
+  }
+  .card p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  .file-format {
+    display: inline-block;
+    background: #0f172a;
+    border: 1px solid var(--border);
+    color: #60a5fa;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin-top: 12px;
+  }
+  .limitations-box {
+    background-color: rgba(239, 68, 68, 0.08);
+    border: 1px solid rgba(239, 68, 68, 0.25);
+    border-radius: 12px;
+    padding: 30px;
+    margin: 40px 0;
+  }
+  .limitations-box h3 {
+    color: #f87171;
+    font-size: 1.3rem;
+    margin-bottom: 12px;
+  }
+  .limitations-list {
+    list-style: none;
+    color: #cbd5e1;
+    font-size: 0.95rem;
+  }
+  .limitations-list li {
+    margin-bottom: 8px;
+    padding-left: 24px;
+    position: relative;
+  }
+  .limitations-list li::before {
+    content: "✕";
+    color: #f87171;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+  }
+  .cta-section {
+    text-align: center;
+    background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 48px 24px;
+    margin: 50px 0 20px 0;
+  }
+  footer {
+    border-top: 1px solid var(--border);
+    text-align: center;
+    padding: 32px 24px;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+  }
+  @media (max-width: 640px) {
+    h1 {
+      font-size: 1.85rem;
+      line-height: 1.25;
+    }
+    .hero {
+      padding: 32px 0 20px 0;
+    }
+    .hero-sub {
+      font-size: 1.05rem;
+    }
+    .btn-download {
+      width: 100%;
+      justify-content: center;
+      padding: 14px 20px;
+      font-size: 1.05rem;
+    }
+    .grid-2, .grid-3 {
+      grid-template-columns: 1fr;
+    }
+    .trust-bar {
+      flex-direction: column;
+      align-items: center;
+      gap: 8px;
+    }
+    .container {
+      padding: 24px 16px;
+    }
+    .card {
+      padding: 18px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav-container">
+    <div class="logo">Fresher<span>JobKit</span></div>
+    <span class="badge-free">100% Free • ₹0 Upfront</span>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-tag">Off-Campus Hiring • Batch 2024–2026</div>
+    <h1>Reduce Common ATS Parsing Risks & Eliminate <span>Outdated Biodata Clutter</span>.</h1>
+    <p class="hero-sub">A pragmatic, zero-cost toolkit for Indian college students and fresh graduates applying for off-campus internships and entry-level software/corporate roles.</p>
+    
+    <a href="Fresher_Job_Application_Kit_v0.1.zip" download class="btn-download" id="hero-download-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+      Download Free Kit (.ZIP)
+    </a>
+
+    <div class="trust-bar">
+      <span class="trust-item">Zero Paywalls (₹0)</span>
+      <span class="trust-item">No Sign-up / Credit Card</span>
+      <span class="trust-item">Runs on Free Software</span>
+      <span class="trust-item">Direct .ZIP Download (552 KB)</span>
+    </div>
+  </section>
+
+  <!-- WHO IT IS FOR & WHAT IT DOES -->
+  <div class="grid-2" style="margin-top: 20px;">
+    <div class="card">
+      <div class="card-icon">🎯</div>
+      <h3>Who This Kit Is For</h3>
+      <p>
+        • Indian engineering, BCA, MCA, and degree students graduating between 2024 and 2026.<br>
+        • Freshers applying off-campus via LinkedIn, Naukri, or career portals with low response rates.<br>
+        • Anyone currently using two-column Canva templates or college placement biodatas with Father's name and formal declarations.
+      </p>
+    </div>
+    <div class="card">
+      <div class="card-icon">⚡</div>
+      <h3>What This Kit Does</h3>
+      <p>
+        • Replaces unparseable multi-column layouts with an ATS-conscious linear single-column format.<br>
+        • Eliminates 8–12 lines of 1990s biodata clutter to make room for real project evidence.<br>
+        • Teaches a 10-minute keyword tailoring framework without fabricating skills.<br>
+        • Demystifies Naukri's recruiter search filters and arms you against recruitment fee scams.
+      </p>
+    </div>
+  </div>
+
+  <!-- WHAT IS INSIDE THE KIT -->
+  <h2 class="section-title">What Is Inside the Kit (8 Core Tools)</h2>
+  <p class="section-sub">Every template, worksheet, and tracker has been engineered and tested for cross-platform compatibility on free software.</p>
+
+  <div class="grid-3">
+    <div class="card">
+      <h3>1. ATS Resume Template</h3>
+      <p>Clean single-column layout without layout tables, graphics, or text boxes. Extracts cleanly in parsers.</p>
+      <span class="file-format">.DOCX (Word / Docs)</span>
+    </div>
+
+    <div class="card">
+      <h3>2. Visual Reference Resume</h3>
+      <p>Completed 1-page reference PDF showing exact margin balance, font hierarchy, and spacing.</p>
+      <span class="file-format">.PDF (Vector)</span>
+    </div>
+
+    <div class="card">
+      <h3>3. What to Remove Checklist</h3>
+      <p>1-page diagnostic sheet explaining why Father's name, declarations, and skill bars hurt your resume.</p>
+      <span class="file-format">.PDF (1-Page)</span>
+    </div>
+
+    <div class="card">
+      <h3>4. 20-Point Self-Audit</h3>
+      <p>Binary Pass/Fail checklist covering clickable links, text selectability, section order, and defensibility.</p>
+      <span class="file-format">.PDF (1-Page)</span>
+    </div>
+
+    <div class="card">
+      <h3>5. 10-Min JD Tailoring</h3>
+      <p>Reverse-engineer job descriptions into hard skills and align your genuine projects in 10 minutes.</p>
+      <span class="file-format">.PDF (Worksheet)</span>
+    </div>
+
+    <div class="card">
+      <h3>6. Naukri & Scam Defense</h3>
+      <p>Resdex search mechanics, 100% profile score guide, and warnings on recruitment fee scams.</p>
+      <span class="file-format">.PDF (Platform Guide)</span>
+    </div>
+
+    <div class="card">
+      <h3>7. Project Bullet Formula</h3>
+      <p>[Action] + [Context] + [Result] formula with 6 clearly marked fictional before-vs-after transformations.</p>
+      <span class="file-format">.PDF (Formula Guide)</span>
+    </div>
+
+    <div class="card">
+      <h3>8. Application Tracker</h3>
+      <p>Structured spreadsheet with dropdown validations and an auto-calculating summary KPI dashboard.</p>
+      <span class="file-format">.XLSX (Excel / Sheets)</span>
+    </div>
+  </div>
+
+  <!-- TRANSPARENT LIMITATIONS -->
+  <div class="limitations-box">
+    <h3>Honest Limitations & Disclaimers</h3>
+    <ul class="limitations-list">
+      <li><strong>Does NOT guarantee jobs or interview calls:</strong> Hiring outcomes depend on market hiring conditions, applicant volume, candidate preparation, and your interview performance. No template can guarantee employment.</li>
+      <li><strong>No "Universal ATS Score" myth:</strong> Different companies use different Applicant Tracking Systems (Workday, Greenhouse, Taleo, Darwinbox). There is no universal "ATS algorithm percentage". Our single-column template is an ATS-conscious design created to reduce common text-order and optical parsing risks.</li>
+      <li><strong>Never fabricates credentials:</strong> We do not write fake company experiences or invent projects. All sample bullets are synthetic demonstrations that you must replace with your genuine code evidence.</li>
+      <li><strong>100% Free:</strong> No paid tiers, no subscription traps, and no credit card required.</li>
+    </ul>
+  </div>
+
+  <!-- FINAL CTA -->
+  <section class="cta-section">
+    <h2 style="font-size: 2rem; margin-bottom: 12px; color: #ffffff;">Ready to Upgrade Your Off-Campus Applications?</h2>
+    <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 28px auto;">Download the complete 8-component kit now. Unzip and start with the README.md guide.</p>
+    
+    <a href="Fresher_Job_Application_Kit_v0.1.zip" download class="btn-download" id="footer-download-btn">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+      Download Free Kit (.ZIP)
+    </a>
+    <div style="font-size: 0.85rem; color: #64748b; margin-top: 14px;">Instant Direct Download • 556 KB • No Email Barrier</div>
+  </section>
+
+</div>
+
+<footer>
+  <div class="container" style="padding: 0;">
+    <p>Fresher Job Application Kit (Free MVP v0.1) • An evidence-driven open educational initiative.</p>
+    <p style="margin-top: 6px; color: #64748b;">Important: Legitimate companies and recruitment portals in India NEVER charge money for job offers, registration fees, or training bonds.</p>
+  </div>
+</footer>
+
+<script>
+  // DOWNLOAD URL CONFIGURATION
+  // Defaults to local relative path for offline / local static serving.
+  // When deploying to GitHub Pages or static host, set this constant to your published GitHub Release asset URL:
+  // e.g. "https://github.com/<owner>/<repo>/releases/download/v0.1/Fresher_Job_Application_Kit_v0.1.zip"
+  const GITHUB_RELEASE_DOWNLOAD_URL = "Fresher_Job_Application_Kit_v0.1.zip";
+
+  document.addEventListener("DOMContentLoaded", function() {
+    if (GITHUB_RELEASE_DOWNLOAD_URL && GITHUB_RELEASE_DOWNLOAD_URL !== "Fresher_Job_Application_Kit_v0.1.zip") {
+      const heroBtn = document.getElementById("hero-download-btn");
+      const footerBtn = document.getElementById("footer-download-btn");
+      if (heroBtn) heroBtn.setAttribute("href", GITHUB_RELEASE_DOWNLOAD_URL);
+      if (footerBtn) footerBtn.setAttribute("href", GITHUB_RELEASE_DOWNLOAD_URL);
+    }
+  });
+</script>
+
+</body>
+</html>
