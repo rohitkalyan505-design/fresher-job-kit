@@ -48,10 +48,11 @@
 - **Hypothesis:** Publishing zero-click, highly educational breakdowns dissecting resume errors and Naukri algorithm tips will generate higher save/share engagement than generic motivational posts, driving high-intent fresher traffic to the free kit.
 - **Action:** Staged and launched Content Post #1 (`linkedin-carousel-5-things-to-remove.pdf` + standalone educational copy) on LinkedIn with direct link in first comment to GitHub Release asset (`Fresher_Job_Application_Kit_v0.1.zip`).
 - **Target Distribution Channels:** LinkedIn (Document Carousel Post #1), GitHub Releases (Direct Asset Distribution), Static Landing Page.
-- **GitHub Release URL:** `https://github.com/rohitkalyan505-design/fresher-job-kit/releases/tag/v0.1`
-- **Direct Download Asset URL:** `https://github.com/rohitkalyan505-design/fresher-job-kit/releases/download/v0.1/Fresher_Job_Application_Kit_v0.1.zip`
-- **Publication Timestamp:** `2026-10-02T21:20:00+05:30`
-- **Initial Metrics (Baseline):** 0 Impressions, 0 Saves, 0 Comments, 0 Clicks, 0 Downloads (strictly unmanipulated baseline).
+- **LinkedIn Post Source / Profile:** `https://www.linkedin.com/in/rohitkalyan505/`
+- **GitHub Release URL (Live):** `https://github.com/rohitkalyan505-design/fresher-job-kit/releases/tag/v0.1`
+- **Direct Download Asset URL (Live):** `https://github.com/rohitkalyan505-design/fresher-job-kit/releases/download/v0.1/Fresher_Job_Application_Kit_v0.1.zip`
+- **Publication Timestamp:** `2026-10-02T21:49:25+05:30`
+- **Initial Metrics (Baseline):** 0 Impressions, 0 Saves, 0 Comments, 0 Clicks, 0 Downloads (strictly unmanipulated real baseline).
 - **Learning:** (Tracking Day 1 to Day 7 validation signals).
 - **Next Action:** Track real audience response, monitor unprompted feature/review requests, log friction points, and maintain strict ₹0 cost boundary.
 
@@ -81,7 +82,7 @@
 
 | Post ID | Platform | Topic / Headline | Publish Date | Impressions | Saves / Bookmarks | Comments | Clicks to Kit | Notes |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `CNT-001` | LinkedIn | *5 Things to Remove from Your Fresher Resume* | 2026-10-02 | 0 | 0 | 0 | 0 | Live — Validation started |
+| `CNT-001` | LinkedIn | *5 Things to Remove from Your Fresher Resume* | 2026-10-02 | 0 | 0 | 0 | 0 | Live on LinkedIn (https://www.linkedin.com/in/rohitkalyan505/) |
 | `CNT-002` | LinkedIn | *Why Your Canva Resume Fails ATS Parsing* | TBD | — | — | — | — | — |
 | `CNT-003` | Reddit | *Naukri Profile Ranking & Freshness Guide* | TBD | — | — | — | — | — |
 | `CNT-004` | LinkedIn | *How to Write Project Bullets with 0 Experience* | TBD | — | — | — | — | — |

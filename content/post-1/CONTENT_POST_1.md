@@ -70,18 +70,17 @@ PS: If you need a clean, single-column, parser-friendly .docx template designed 
 
 ```markdown
 Free Fresher Job Application Kit:
+
 https://github.com/rohitkalyan505-design/fresher-job-kit/releases/download/v0.1/Fresher_Job_Application_Kit_v0.1.zip
 
-Inside the free .zip:
-• Single-Column ATS-Conscious Resume Template (.docx + reference .pdf)
-• "What to Remove From Your Resume" 1-Page Diagnostic Sheet
-• Indian Fresher 20-Point Resume Self-Audit Checklist
-• 10-Minute Job Description Keyword Tailoring Worksheet
-• Naukri Profile Optimization & Scam-Defense Checklist
-• Project Bullet Formula Guide with 6 Fictional Transformations
-• Job Application Tracker Spreadsheet (.xlsx)
-
-100% free, runs on free software (Word Online / Google Docs / Sheets), zero ads, and zero upsells. Hope it helps your off-campus applications!
+Inside the free kit:
+- Single-column ATS-conscious resume template
+- Resume removal checklist
+- 20-point resume self-audit
+- JD tailoring worksheet
+- Naukri checklist
+- Project bullet guide
+- Job application tracker
 ```
 
 ---
