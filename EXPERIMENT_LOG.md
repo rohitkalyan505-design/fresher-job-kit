@@ -52,7 +52,7 @@
 - **GitHub Release URL (Live):** `https://github.com/rohitkalyan505-design/fresher-job-kit/releases/tag/v0.1`
 - **Direct Download Asset URL (Live):** `https://github.com/rohitkalyan505-design/fresher-job-kit/releases/download/v0.1/Fresher_Job_Application_Kit_v0.1.zip`
 - **Publication Timestamp:** `2026-10-02T21:49:25+05:30`
-- **Initial Metrics (Baseline):** 0 Impressions, 0 Saves, 0 Comments, 0 Clicks, 0 Downloads (strictly unmanipulated real baseline).
+- **Initial Metrics (Observed Baseline):** 0 Impressions, 0 Reactions, 0 Saves, 0 Comments, 0 Link Clicks, 1 Verified Kit Download (direct release asset verification; strictly zero fabricated numbers).
 - **Learning:** (Tracking Day 1 to Day 7 validation signals).
 - **Next Action:** Track real audience response, monitor unprompted feature/review requests, log friction points, and maintain strict ₹0 cost boundary.
 
